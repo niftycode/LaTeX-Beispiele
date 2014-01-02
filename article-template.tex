@@ -1,0 +1,53 @@
+%
+%  Template for the article class
+%
+%  Created by Bodo Schönfeld on 2014-01-01.
+%  Creative Commons (CC BY 4.0) 
+%
+%  Version 0.1
+%
+%
+
+% Dokumentenklasse "article", DIN A4, Schriftgröße 12pt
+\documentclass[a4paper,12pt]{article}
+
+% T1-Kodierung, damit Umlaute als gesonderte Zeichen
+% dargestellt werden können.
+\usepackage[T1]{fontenc}
+
+% Zeichensatzkodierung Unicode (UTF-8)
+\usepackage[utf8]{inputenc}
+
+% Aus "Table of Contents" wird "Inhaltsverzeichnis";
+% außerdme wird für die Trennung die neue deutsche Rechtschreibung verwendet.
+\usepackage[ngerman]{babel}
+
+% Nun beginnt das eigentliche Dokument.
+\begin{document}
+
+% Titel, Autor und Datum
+\title{title}
+\author{author}
+\date{date}
+
+% Titelseite einfügen
+\maketitle
+
+% neue Seite beginnen
+\newpage
+
+% Inhaltsverzeichnis einfügen
+\tableofcontents
+
+% neue Seite beginnen
+\newpage
+
+% Kapitel 1
+\section{section}
+
+Fließtext
+% Unterkapitel
+\subsection{subsection}
+
+Fließtext
+\end{document}
