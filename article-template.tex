@@ -4,7 +4,7 @@
 %  Created by Bodo Schönfeld on 2014-01-01.
 %  Creative Commons (CC BY 4.0) 
 %
-%  Version 0.1
+%  Version 0.1.2
 %
 %
 
@@ -22,13 +22,19 @@
 % außerdme wird für die Trennung die neue deutsche Rechtschreibung verwendet.
 \usepackage[ngerman]{babel}
 
-% Nun beginnt das eigentliche Dokument.
-\begin{document}
+% Einzug der ersten Zeile bei Beginn eines neuen Absatzes:
+\setlength{\parindent}{0em} % Einzug: {1.5em}
 
-% Titel, Autor und Datum
+% Abstand zwischen zwei Absätzen:
+\setlength{\parskip}{1.5ex}
+
+% Titel, Autor und heutiges Datum
 \title{title}
 \author{author}
-\date{date}
+\date{\today}
+
+% Nun beginnt das eigentliche Dokument.
+\begin{document}
 
 % Titelseite einfügen
 \maketitle
@@ -46,8 +52,10 @@
 \section{section}
 
 Fließtext
+
 % Unterkapitel
 \subsection{subsection}
 
 Fließtext
+
 \end{document}
