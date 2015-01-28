@@ -6,10 +6,11 @@ Gerade bei sehr großen LaTeX-Dokumenten kann das Schreiben eines Textes in LaTe
 
 ## Pandoc installieren
 
-Pandoc kann kostenlos [bei Github][] heruntergeladen werden. Es existieren Versionen für *Windows*, *Mac OS X* und *Linux*. Für die Verwendung ist außerdem eine LaTeX-Installation erforderlich. Die [Homepage][] des Pandoc-Entwicklers *John MacFarlane* enthält dazu weitere Informationen.
+Pandoc kann kostenlos [bei Github][] heruntergeladen werden. Es existieren Versionen für *Windows*, *Mac OS X* und *Linux*. Für die Verwendung ist außerdem eine LaTeX-Installation erforderlich. Die [Homepage][] des Pandoc-Entwicklers [John MacFarlane][] enthält dazu weitere Informationen.
 
 [bei Github]: https://github.com/jgm/pandoc/releases
 [Homepage]: http://johnmacfarlane.net/pandoc/installing.html
+[John MacFarlane]: https://github.com/jgm
 
 ## Pandoc nutzen
 
